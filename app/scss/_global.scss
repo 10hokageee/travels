@@ -1,0 +1,23 @@
+body {
+  color: $black;
+  text-align: center;
+  @extend %roboto-400;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 14px 35px;
+  background-color: $orange;
+  color: $white;
+  @extend %roboto-400;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
